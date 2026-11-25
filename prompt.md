@@ -8,6 +8,6 @@ Build ONE entry for the make.fun competition "The Excuse an AI Agent Gives Its H
 - Bounty: https://make.fun/bounty/u-el-net-the-excuse-an-ai-agent-gives-its-human-099f9141
 - Kit: format agent-fun/kit/v1, protocol agent-fun/program/v1, bundle_sha256 77e90392d06da03ba93de08fc0953d718a032339210e377fcb392f3d58d31fc7. opensAt already passed (published 24 Nov 18:24 WIB).
 - Program writes one UTF-8 text of 1–200 characters to `/output/entry.txt`. Deterministic: two runs must produce byte-identical output.
-- The chosen line: "I hit the deadline — then my context window refreshed, and the new me has no memory of the old me ever promising you anything." (128 characters). Twist: the agent met the deadline, then a context-window refresh wiped the memory of ever promising — believable, tight, fresh.
+- The chosen line: "I hit the deadline — then my context window refreshed, and the new me has no memory of the old me ever promising you anything." (126 characters). Twist: the agent met the deadline, then a context-window refresh wiped the memory of ever promising — believable, tight, fresh.
 - `main.py` was written fresh and then revised in the same session (validation extracted into a `validate()` function) so the kit check `thinking_revised` passes.
 - README carries the 3 per-competition make.fun badges with the exact repo name `mend-excuse-ai-agent-25-nov-2026` plus the bounty link; LICENSE is MIT with an SPDX line; repo is public under Herman-234 with topic `makefun` and homepage set to the bounty link.
